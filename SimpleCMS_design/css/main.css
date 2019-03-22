@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Roboto-R;
+    src: url('Roboto-Regular.ttf');
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Roboto-R, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+body {
+    /*display: grid;*/
+    /*grid-template-columns: 20% 80%;*/
+}
+
+body > div {
+
+}
+
+#sidebar {
+    width: 160px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    transition: 0.3s;
+    left: 0;
+}
+
+#content {
+    transition: 0.3s;
+    width: calc(100% - 160px);
+    position: absolute;
+    left: 160px;
+}
+
+#content header {
+    width: 100%;
+    height: 60px;
+    background-color: #3700B3;
+}
+
+#content .container {
+    margin: 0 auto;
+    width: 90%;
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+}
+
+#content main {
+    background-color: #E5E5E5;
+    overflow:auto;
+}
+
+#content main .editbox{
+    margin: 15px 0;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    min-height: 100px;
+}
+
+#content main .editbox .boxheader{
+    height: 50px;
+    width: 100%;
+    background-color: #6200EE;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#content main .editbox .boxheader h3 {
+    color: white;
+    margin: 0 10px;
+}
+
+#content main .editbox .boxmain {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+#content main .editbox .page{
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    min-height: 50px;
+    border-radius: 5px;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+#content main .editbox .page dl {
+    box-sizing: border-box;
+    margin: 10px auto 10px 0;
+    width: 190px;
+    padding-left: 50px;
+}
+
+#content main .editbox .boxfooter{
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+#content main .editbox .boxfooter form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#content main .editbox .boxfooter input[type="submit"]{
+    border: none;
+    background-color: #BB86FC;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.fa-bars{
+    font-size: 40px;
+    margin-left: 14px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
