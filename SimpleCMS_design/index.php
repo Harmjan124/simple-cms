@@ -11,7 +11,24 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-<div id="sidebar">sidebar</div>
+<div id="sidebar">
+    <img src="media/logo/CMSLogo.png" alt="CMSLogo">
+    <h2>TEXT TEXT TEXT</h2>
+    <hr class="Hr-Sidebar">
+    <p class="P-Sidebar">Pages</p>
+    <p class="P-Sidebar">Posts</p>
+    <p class="P-Sidebar">Categories</p>
+    <p class="P-Sidebar">Comments</p>
+    <hr class="Hr-Sidebar">
+    <p class="P-Sidebar">External Links</p>
+    <p class="P-Sidebar">Menus</p>
+    <p class="P-Sidebar">Media</p>
+    <hr class="Hr-Sidebar">
+    <p class="P-Sidebar">Settings</p>
+    <p class="P-Sidebar">Accounts</p>
+
+</div>
+
     <div id="content">
         <header>
             <div id="toggleclick" onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
