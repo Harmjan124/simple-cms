@@ -140,3 +140,6 @@ body > div {
     color: white;
     cursor: pointer;
 }
+#toggleclick{
+    width: 50px;
+}

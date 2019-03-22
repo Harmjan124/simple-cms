@@ -14,7 +14,7 @@
 <div id="sidebar">sidebar</div>
     <div id="content">
         <header>
-            <div onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
+            <div id="toggleclick" onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
         </header>
         <main>
             <div class="container">
