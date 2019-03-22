@@ -1,2 +1,2 @@
 ## Simple-cms
-<h1>Alleen voor mensen van ans project</h1>
+<h1>Alleen voor mensen van ons project</h1>
