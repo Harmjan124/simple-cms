@@ -31,6 +31,7 @@
 
     <div id="content">
         <header>
+            <div id="profiel-foto"></div>
             <div id="toggleclick" onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
         </header>
         <main>
