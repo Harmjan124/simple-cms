@@ -159,7 +159,7 @@ body > div {
     float: right;
     margin-right: 3px;
     margin-top: 2px;
-
+    background-image: url("../media/profielfoto/geenfoto-1024x683.jpg");
     background-size: cover;
     background-position: center;
 }
