@@ -39,6 +39,14 @@ body > div {
     transition: 0.3s;
     left: 0;
 }
+.P-Sidebar{
+    padding-left: 10px;
+}
+.Hr-Sidebar{
+    width: 70px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
 
 #content {
     transition: 0.3s;
