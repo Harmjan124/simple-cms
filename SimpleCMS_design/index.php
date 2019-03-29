@@ -33,6 +33,7 @@
         <header>
             <div id="profiel-foto"></div>
             <div id="toggleclick" onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
+            <button id="Login_Button"><a href="login.php">Login</a> </button>
         </header>
         <main>
             <div class="container">

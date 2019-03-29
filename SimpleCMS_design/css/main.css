@@ -163,3 +163,19 @@ body > div {
     background-size: cover;
     background-position: center;
 }
+
+#Login_Button{
+    color: white;
+    margin-left: 1270px;
+    position: absolute;
+    margin-top: -22px;
+}
+
+#login{
+    width: 600px;
+    height: 500px;
+    background-color: lightblue;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px black solid;
+}
