@@ -33,14 +33,15 @@
         <header>
             <div id="profiel-foto"></div>
             <div id="toggleclick" onclick="togglesidebar();"><i class="fas fa-bars"></i></div>
-            <button id="Login_Button"><a href="">Login</a> </button>
+
+            <button id="Login_Button"><a href="login.php">Login</a> </button>
 
         </header>
         <main>
             <div class="container">
                 <div class="editbox">
                     <div class="boxheader">
-                        <h3 class="vertical-center">Posts</h3>
+                        <h3>Posts</h3>
                     </div>
                     <div class="boxmain">
                         <div class="page">
@@ -112,14 +113,14 @@
                     </div>
                     <div class="boxfooter">
                         <form action="">
-                            <input class="vertical-center" name="submit" type="submit" value="New Page">
+                            <input name="submit" type="submit" value="New Page">
                             <input name="_token_" type="hidden">
                         </form>
                     </div>
                 </div>
                 <div class="editbox">
                     <div class="boxheader">
-                        <h3 class="vertical-center">New Page</h3>
+                        <h3>New Page</h3>
                     </div>
                     <div class="boxmain">
                         <div class="anotherinputbox">
@@ -132,21 +133,21 @@
                     </div>
                     <div class="boxfooter">
                         <form action="">
-                            <input class="vertical-center" name="submit" type="submit" value="Create Page">
+                            <input name="submit" type="submit" value="Create Page">
                             <input name="_token_" type="hidden">
                         </form>
                     </div>
                 </div>
                 <div class="editbox">
                     <div class="boxheader">
-                        <h3 class="vertical-center">Edit Page</h3>
+                        <h3>Edit Page</h3>
                     </div>
                     <div class="boxmain">
                         <p>3</p>
                     </div>
                     <div class="boxfooter">
                         <form action="">
-                            <input class="vertical-center" name="submit" type="submit" value="Save Changes">
+                            <input name="submit" type="submit" value="Save Changes">
                             <input name="_token_" type="hidden">
                         </form>
                     </div>

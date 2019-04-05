@@ -13,14 +13,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
 body {
     /*display: grid;*/
     /*grid-template-columns: 20% 80%;*/
@@ -32,7 +24,7 @@ body > div {
 
 #sidebar {
     width: 160px;
-    background-color: black;
+    background-color: #7aa3ff;
     color: white;
     height: 100vh;
     position: fixed;
