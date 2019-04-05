@@ -13,14 +13,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
 body {
     /*display: grid;*/
     /*grid-template-columns: 20% 80%;*/
@@ -32,7 +24,7 @@ body > div {
 
 #sidebar {
     width: 160px;
-    background-color: black;
+    background-color: #7aa3ff;
     color: white;
     height: 100vh;
     position: fixed;
@@ -162,4 +154,29 @@ body > div {
     background-image: url("../media/profielfoto/geenfoto-1024x683.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#Login_Button{
+    color: white;
+    margin-left: 1270px;
+    position: absolute;
+    margin-top: -22px;
+}
+
+#login{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+
+#login2{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+
+    border: 1px black solid;
 }
