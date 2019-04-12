@@ -1,5 +1,7 @@
 <?php
 
+include_once '../config/config.database.php';
+
 try {
     $db_connection = new PDO("mysql:host=".DB_HOST."; dbname=".DB_NAME, DB_USER, DB_PASSWORD);
 
